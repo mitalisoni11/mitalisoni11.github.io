@@ -3,203 +3,49 @@ layout: inner
 title: About
 permalink: /about/
 ---
-## Markdown
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+<img src="/img/photo.jpeg" alt="Mitali Soni" style="max-width: 200px; border-radius: 50%; margin-bottom: 20px;" />
 
-[Link to another page](/index.html).
+## Education
 
-There should be whitespace between paragraphs.
+**Santa Clara University** — *M.S. in Business Analytics (Data Science)*  
+**GPA**: 3.9  
 
-# Header 1
+**Relevant Coursework**: Enterprises, Marketing Analytics  
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**Gujarat Technological University** — *B.E. in Electronics & Communication*  
+**GPA**: 3.7  
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-{% highlight js %}
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-{% endhighlight %}
-
-{% highlight ruby %}
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-{% endhighlight %}
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
 
 ---
 
-### Here is an unordered list:
+## Work Experience
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+**LatentView Analytics**, San Jose, CA  
+*Data Science Intern* (Jan, 2025 – May, 2025)  
+- Developed an AI-powered marketing analytics tool for non-technical users to generate insights and optimize budgets using natural language.  
+- Built an agentic AI system that automated query translation, data retrieval, and visualization in Tableau.
 
-### And an ordered list:
+**CSG International**, Bengaluru, India  
+*Software Engineer 2* (Apr, 2022 – Aug, 2024)  
+- Optimized Python ETL workflows, reducing downtime by 80%.  
+- Conducted 15+ stakeholder interviews to gather insights and prioritize features.  
+- Developed a new microservice to process Amazon S3 batch data.  
+- Acted as Scrum Master for a distributed team, driving user testing and Agile ceremonies.
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Wide image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-{% highlight txt %}
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-{% endhighlight %}
-
-{% highlight txt %}
-The final element.
-{% endhighlight %}
+**Infosys Ltd.**, Pune, India  
+*Systems Engineer* (Nov, 2020 – Mar, 2022)  
+- Defined and prioritized roadmap for automating 2000+ test cases.  
+- Created Excel dashboards for KPI tracking and stakeholder reporting.
 
 ---
 
-## Syntax highlighting
+## Skills
 
-Jekyll has [built in support](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) for syntax highlighting of over 60 languages thanks to [Rouge](http://rouge.jneen.net/).
-
-To render a code block with syntax highlighting, surround your code as follows:
-
-{% highlight markdown %}
-{% raw %}
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-{% endraw %}
-{% endhighlight %}
-
-[Pygments](http://pygments.org/) styles are present under section 6.0 of `css/style.scss` for customization.
-
-### Examples
+- **Languages**: Python, SQL  
+- **Tools**: Tableau, Git, JIRA  
+- **Frameworks**: Pandas, scikit-learn, Flask  
+- **Soft Skills**: Agile, Stakeholder Management, Team Leadership
 
 ---
 
-#### Bash
-
-{% highlight bash %}
->_ ssh -i ~/.ssh/id_rsa account@host.com
-account@host:~$
-$ var="my-value"
-$ echo $var
-my-value
-$ logout
-{% endhighlight %}
-
-#### HTML
-
-{% highlight html %}
-<!DOCTYPE html>
-<html>
- <head>
-   <meta charset="UTF-8">
-   <title>title</title>
- </head>
- <body>
-
- </body>
-</html>
-{% endhighlight %}
-
-#### CSS
-
-{% highlight css %}
-/*--------------------------------------------------------------
-	1.0 Defaults
---------------------------------------------------------------*/
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
-
-body {
-  background-color: #e9edf0;
-  @extend %opensans;
-  -webkit-font-smoothing: antialiased;
-}
-{% endhighlight %}
-
-#### YAML
-
-{% highlight yaml %}
-### Phantom settings
-paginate: 10
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
-
-#### Phantom Navigation menu
-enable_nav: true
-nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-{% endhighlight %}
