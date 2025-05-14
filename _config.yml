@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello! I'm Mitali Soni."
 email: 'msoni@scu.com'
-description: "Data & AI Product Builder. I build and improve AI-powered and data-driven products from 0 to 1 and beyond."
+description: "I specialize in creating AI-powered and data-driven products from the ground up — from ideation and MVP development to iterative improvements. With hands-on experience in engineering scalable data pipelines and working on big data platforms, I bring a strong technical foundation to everything I build.
+    Beyond code, I’ve collaborated across functions to align product vision, drive roadmaps, and deliver impactful solutions. Whether it's writing Python or writing product specs, I thrive at the intersection of data, engineering, and product thinking."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mitalisoni11.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'mitalisoni11'
