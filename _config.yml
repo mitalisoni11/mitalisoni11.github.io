@@ -21,6 +21,7 @@ url: "https://mitalisoni11.github.io" # the base hostname & protocol for your si
 github_username: 'mitalisoni11'
 twitter_username: ''
 medium_username: ''
+linkedin_username: 'mitalissoni'
 
 # Build settings
 markdown: kramdown
