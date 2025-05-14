@@ -19,6 +19,8 @@ description: "Data & AI Product Builder. I build and improve AI-powered and data
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mitalisoni11.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'mitalisoni11'
+twitter_username: ''
+medium_username: ''
 
 # Build settings
 markdown: kramdown
@@ -91,7 +93,7 @@ pagination:
 
 ### Phantom settings
 footer_text: ''
-admin_name: 'Mitali SOni'
+admin_name: 'Mitali Soni'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
