@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Telecom Customer Churn Prediction'
 date: 2025-04-30 10:00:00
 categories: posts
